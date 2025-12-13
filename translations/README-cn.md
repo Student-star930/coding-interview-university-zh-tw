@@ -370,17 +370,17 @@
         - [X] at(index) —— 返回对应索引的元素，且若索引越界则愤然报错
         - [X] push(item)
         - [X] insert(index, item) —— 在指定索引中插入元素，并把后面的元素依次后移
-        - [X  prepend(item) —— 可以使用上面的 insert 函数，传参 index 为 0
+        - [X]  prepend(item) —— 可以使用上面的 insert 函数，传参 index 为 0
         - [X] pop() —— 删除在数组末端的元素，并返回其值
         - [X] delete(index) —— 删除指定索引的元素，并把后面的元素依次前移
-        - [X] remove(item) —— 删除指定值的元素，并返回其索引（即使有多个元素）
+        - [X] remove(item) —— 删除指定值的元素，并返回其索引（即使有多个元素）  (使用快慢指针)
         - [X] find(item) —— 寻找指定值的元素并返回其中第一个出现的元素其索引，若未找到则返回 -1    使用二分查找
         - [X] resize(new_capacity) // 私有函数
             - 若数组的大小到达其容积，则变大一倍
             - 获取元素后，若数组大小为其容积的1/4，则缩小一半
     - [X] 时间复杂度
         - 在数组末端增加/删除、定位、更新元素，只允许占 O(1) 的时间复杂度（平摊（amortized）去分配内存以获取更多空间）
-        - 在数组任何地方插入/移除元素，只允许 O(n) 的时间复杂度(使用快慢指针)
+        - 在数组任何地方插入/移除元素，只允许 O(n) 的时间复杂度
     - [X] 空间复杂度
         - 因为在内存中分配的空间邻近，所以有助于提高性能
         - 空间需求 = （大于或等于 n 的数组容积）* 元素的大小。即便空间需求为 2n，其空间复杂度仍然是 O(n)
@@ -472,10 +472,10 @@
 ## 更多的知识
 
 - ### 二分查找（Binary search）
-    - [ ] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] 实现：
+    - [x] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [x] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [x] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [x] 实现：
         - 二分查找（在一个已排序好的整型数组中查找）
         - 迭代式二分查找
 

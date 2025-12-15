@@ -389,9 +389,9 @@
     - [X] 介绍：
         - [ X] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B —— 链表（视频）](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
-    - [ X] [C 代码（视频）](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+    - [X] [C 代码（视频）](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
         - 并非看完整个视频，只需要看关于节点结果和内存分配那一部分即可
-    - [X ] 链表 vs 数组：
+    - [X] 链表 vs 数组：
         - [基本链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [在现实中，链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [为什么你需要避免使用链表（视频）](https://www.youtube.com/watch?v=YQs6IC-vgmo)
@@ -417,16 +417,16 @@
         - 并不需要实现
 
 - ### 堆栈（Stack）
-    - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [使用堆栈 —— 后进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [x] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [] [使用堆栈 —— 后进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [ ] 可以不实现，因为使用数组来实现并不重要
 
 - ### 队列（Queue）
-    - [ ] [使用队列 —— 先进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [x] [使用队列 —— 先进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [优先级队列（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] 使用含有尾部指针的链表来实现:
+    - [x] 使用含有尾部指针的链表来实现:
         - enqueue(value) —— 在尾部添加值
         - dequeue() —— 删除最早添加的元素并返回其值（首部元素）
         - empty()
